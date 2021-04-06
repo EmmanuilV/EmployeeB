@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/intern/Documents/Task/Task.csproj": {}
+  },
+  "projects": {
+    "/home/intern/Documents/Task/Task.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/intern/Documents/Task/Task.csproj",
+        "projectName": "Task",
+        "projectPath": "/home/intern/Documents/Task/Task.csproj",
+        "packagesPath": "/home/intern/.nuget/packages/",
+        "outputPath": "/home/intern/Documents/Task/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/intern/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
